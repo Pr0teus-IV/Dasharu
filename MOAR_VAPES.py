@@ -12,3 +12,4 @@ weather_curr = soup.find("p", {"class": "myforecast-current"})
 weather_curr_text = weather_curr.text
 
 print(f'The weather is currently {weather_curr_text}')
+
